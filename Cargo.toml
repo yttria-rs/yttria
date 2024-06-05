@@ -1,0 +1,16 @@
+[package]
+name = "yttria"
+version = "0.1.0"
+authors = ["Trevor Klingler"]
+description = "A library that re-exports the other yttria sub-libraries for radio application development"
+readme = "readme.md"
+repository = "https://github.com/yttria-rs/yttria"
+license = "MPL-2.0"
+keywords = ["dsp", "radio", "math"]
+categories = ["mathematics"]
+edition = "2021"
+
+[dependencies]
+yttria-coding = "0.1.1"
+yttria-math = "0.1.0"
+yttria-modulation = "0.1.0"
